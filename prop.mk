@@ -162,6 +162,10 @@ persist.rild.nitz_short_ons_1="" \
 persist.rild.nitz_short_ons_2="" \
 persist.rild.nitz_short_ons_3=""
 
+# Navigation Gestures
+PRODUCT_PROPERTY_OVERRIDES += \
+qemu.hw.mainkeys=0
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 DEVICE_PROVISIONED=1 \
